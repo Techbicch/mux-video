@@ -62,16 +62,16 @@ export default async function Page(props: { params: Promise<Params> }) {
           accentColor="rgb(220 38 38)"
         />
       </div>
-      <p>
-        Go <Link href="/">back home</Link> to upload another video.
-      </p>
+     // <p>
+      //  Go <Link href="/">back home</Link> to upload another video.
+    //  </p>
       <hr className="my-8 bg-gray-500" />
       <p className="mb-4">
         This video was uploaded and processed by{" "}
-        <Link
-          href={MUX_HOME_PAGE_URL}
-          target="_blank"
-          rel="noopener noreferrer"
+      //  <Link
+      //    href={MUX_HOME_PAGE_URL}
+      //    target="_blank"
+      //    rel="noopener noreferrer"
         >
           Mux
         </Link>
