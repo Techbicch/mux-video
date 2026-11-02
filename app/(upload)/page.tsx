@@ -12,7 +12,7 @@ const createUpload = async () => {
       encoding_tier: "baseline",
     },
     // in production, you'll want to change this origin to your-domain.com
-    cors_origin: "mux.plantationland.site",
+    cors_origin: "mux-video-lac.vercel.app",
   });
 
   return upload;
